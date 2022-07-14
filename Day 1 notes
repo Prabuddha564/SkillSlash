@@ -1,0 +1,37 @@
+PROGRAM: set of instructions
+SYNTAX:  set of rules
+"he is a girl"
+"Its is a boy"
+Algorithm: set of steps
+------------------------------------------
+Python, java, C, C++
+------------------------------------------
+Python:? Monty python flying circus: BBC show
+Mr. Rossum - Netherlands
+------------------------------------------ 
+language: installation
+editor: place where you write your code
+-----------------------------------------
+print("hello")
+-----------------------------------------
+
+# single line comment
+'''
+multiline
+comment is added
+'''
+'''variable, constant , datatype, keyword'''
+name="Ramya"--> str
+name="Nisha"
+name="Mohan"
+age=6-------------->int
+salary=939030.8----->float
+----------------------------------------------------------------------------
+number1=200
+number2=100
+sum=number1+number2
+print(number1,"+",number2,sum)
+yearBornIn=1981
+ageIn2020=2020-yearBornIn
+print("You were born in",yearBornIn)
+print("In the year 2020, you will be",ageIn2020,"years old!")
