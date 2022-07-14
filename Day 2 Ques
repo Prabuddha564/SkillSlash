@@ -1,37 +1,56 @@
-PROGRAM: set of instructions
-SYNTAX:  set of rules
-"he is a girl"
-"Its is a boy"
-Algorithm: set of steps
-------------------------------------------
-Python, java, C, C++
-------------------------------------------
-Python:? Monty python flying circus: BBC show
-Mr. Rossum - Netherlands
------------------------------------------- 
-language: installation
-editor: place where you write your code
------------------------------------------
-print("hello")
------------------------------------------
+name=input("Please enter the name:")
+print("Hi",name,"Welcome to Python Programing")
 
-# single line comment
-'''
-multiline
-comment is added
-'''
-'''variable, constant , datatype, keyword'''
-name="Ramya"--> str
-name="Nisha"
-name="Mohan"
-age=6-------------->int
-salary=939030.8----->float
-----------------------------------------------------------------------------
-number1=200
-number2=100
-sum=number1+number2
-print(number1,"+",number2,sum)
-yearBornIn=1981
-ageIn2020=2020-yearBornIn
-print("You were born in",yearBornIn)
-print("In the year 2020, you will be",ageIn2020,"years old!")
+Amount=float(input("Please enter amount in Pounds:"))
+Dollars=Amount*1.19
+print(Amount,"Pounds are",Dollars,"Dollars")
+
+name=input("Please enter the name:")
+student_number=input("Please enter the student number:")
+email=input("Please enter the email address:")
+print("Hello",name,", thanks for entering your details. We will send you an email on ",email,"with sunject id:",student_number,"about furthr information")
+
+year=input("Please enter your Birth Year:")
+in2020=2020-int(year)
+
+
+month=int(input("Enter the month:"))
+if(month==1):
+   print("Month ",month," is January")
+elif(month==2):
+    print("Month ",month," is January")
+elif(month==3):
+    print("Month ",month," is January")
+elif(month==4):
+    print("Month ",month," is January")
+elif(month==5):
+    print("Month ",month," is January")
+elif(month==6):
+    print("Month ",month," is January")
+elif(month==7):
+    print("Month ",month," is January")
+elif(month==8):
+    print("Month ",month," is January")
+elif(month==9):
+    print("Month ",month," is January")
+elif(month==10):
+    print("Month ",month," is January")
+elif(month==11):
+    print("Month ",month," is January")
+elif(month==12):
+   print("Month ",month," is January")
+else:
+    print("nothing to show")
+    
+
+
+print("You are born in ",year,".")
+print("In the year 2020, you will be",in2020," years old.")
+
+age=int(input("please enter you age:"))
+if (age<16):
+    print("the ticket price is 3 pounds”)
+elif (age>16):
+    print("the ticket price is 2 pounds")
+else:
+    print("the ticket price is 6 pounds")
