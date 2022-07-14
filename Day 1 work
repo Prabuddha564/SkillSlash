@@ -1,0 +1,59 @@
+print("hellow Prao")
+print("Prabuddha Bhalerao")
+print("st007")
+print("bhaleraoprabuddha@gmail.com")
+
+print(14+7)
+print(14*7)
+print(14-7)
+print(14/7)
+
+print("1")
+print(" 2")
+print("  3")
+print("   4")
+print("    5")
+
+print('"SDK" stands for "Software Development Kit", whereas"')
+print('"IDE" stands for "Integrated Development Environment".')
+
+print("You are born in 1998.")
+print("In the year 2020, you will be 24 years old.")
+
+#day 1 5 questions done
+
+'''
+comment taught
+'''
+
+
+number1=10
+number2=20
+sum=number1+number2
+sub=number1-number2
+mul=number1*number2
+div=number1/number2
+print("sum of two numbers",sum)
+print("Sub of two numbers",sub)
+print("mul of two numbers",mul)
+print("div of two numbers",div)
+
+
+number1=14
+number2=7
+sum=number1+number2
+sub=number1-number2
+mul=number1*number2
+div=number1/number2
+print(number1,"+",number2,"=",sum)
+print(number1,"-",number2,"=",sub)
+print(number1,"*",number2,"=",mul)
+print(number1,"/",number2,"=",div)
+
+
+number3=1998
+print("You are born in",number3)
+print("In the year 2020, you will be",2020-number3,"years old.")
+
+
+
